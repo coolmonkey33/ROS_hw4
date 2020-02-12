@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/ros-student/catkin_ws/devel/include",
+        "/opt/ros/kinetic/include",
+        "/home/ros-student/catkin_ws/src/my_ros_tutorials/include",
+        "/home/ros-student/catkin_ws/src/ros_homework/include",
+        "/usr/include"
+      ],
+      "name": "Linux"
+    }
+  ]
+}

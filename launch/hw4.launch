@@ -1,0 +1,10 @@
+<launch>
+    <param name = "/hw4_topic_pub_freq" type = "double" value = "1" />
+
+    <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" />
+
+    <node name = "input_xy_node" pkg = "ros_homework" type = "input_xy_node"
+            output = "screen" launch-prefix = "gnome-terminal -e" />
+    <node name = "go2xy_node" pkg = "ros_homework" type = "go2xy_node"/>
+    
+</launch>

@@ -1,0 +1,10 @@
+<launch>
+    <param name = "/hw1_topic_pub_freq" type = "double" value = "1" />
+    <param name = "/hw1_str2" type = "string" value = "WWWWWWW" />
+
+    <node name = "hw1_sub_node" pkg = "ros_homework" type = "hw1_sub_node"
+            output = "screen" launch-prefix = "gnome-terminal -e" />
+    <node name = "hw1_pub2_node" pkg = "ros_homework" type = "hw1_pub2_node"/>
+    <node name = "hw1_changer_node" pkg = "ros_homework" type = "hw1_changer_node"/>
+
+</launch>
